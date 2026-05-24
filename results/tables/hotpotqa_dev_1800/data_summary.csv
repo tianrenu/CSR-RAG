@@ -1,0 +1,4 @@
+split,record_count,original_id_count,sufficient_count,insufficient_count,bridge_count,comparison_count
+train,2520,1260,1260,1260,2068,452
+valid,540,270,270,270,420,120
+test,540,270,270,270,440,100

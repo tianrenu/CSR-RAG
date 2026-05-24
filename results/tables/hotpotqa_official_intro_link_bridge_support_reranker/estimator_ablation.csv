@@ -1,0 +1,5 @@
+group,group_value,selected_variant,estimator,feature_set,blend_alpha,train_top5_sufficient_rate,valid_top5_sufficient_rate,test_top5_sufficient_rate,test_top10_sufficient_rate,test_top20_sufficient_rate,test_top5_gain_vs_original,train_test_gap_top5
+estimator,random_forest_balanced,random_forest_balanced/all/blend1.00,random_forest_balanced,all,1.0,0.7644221493343624,0.6432432432432432,0.677158273381295,0.7428057553956835,0.7715827338129496,0.20773381294964027,0.0872638759530674
+estimator,gradient_boosting,gradient_boosting/all/blend1.00,gradient_boosting,all,1.0,0.64885201620683,0.6270270270270271,0.64568345323741,0.7392086330935251,0.7715827338129496,0.17625899280575535,0.003168562969419919
+estimator,logistic_regression_balanced,logistic_regression_balanced/all/blend1.00,logistic_regression_balanced,all,1.0,0.6446073702488906,0.6207207207207207,0.6411870503597122,0.7392086330935251,0.7715827338129496,0.17176258992805754,0.003420319889178347
+estimator,original_rank,original_rank,none,none,,0.47540034728921476,0.44594594594594594,0.4694244604316547,0.664568345323741,0.7715827338129496,0.0,0.005975886857560064

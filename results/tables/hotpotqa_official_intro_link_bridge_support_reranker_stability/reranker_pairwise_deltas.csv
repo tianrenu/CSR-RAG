@@ -1,0 +1,4 @@
+comparison,left_variant,right_variant,delta_test_top5,delta_test_top10,delta_train_test_gap,delta_doc_train_test_auprc_gap
+rf_vs_gradient_boosting,random_forest_balanced/all/blend1.00,gradient_boosting/all/blend1.00,0.03147482014388492,0.003597122302158362,0.08409531298364747,0.19930889939653107
+rf_vs_logistic_regression,random_forest_balanced/all/blend1.00,logistic_regression_balanced/all/blend1.00,0.03597122302158273,0.003597122302158362,0.08384355606388905,0.20228862358604272
+gb_vs_logistic_regression,gradient_boosting/all/blend1.00,logistic_regression_balanced/all/blend1.00,0.004496402877697814,0.0,-0.00025175691975842796,0.0029797241895116455

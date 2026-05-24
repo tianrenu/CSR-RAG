@@ -1,0 +1,4 @@
+text_type,unique_text_count,cached_count,missing_cache_count,cache_coverage,occurrence_count,estimated_total_tokens,estimated_cached_tokens,estimated_missing_tokens,mean_estimated_tokens_per_text
+query,7405,7405,0,1.0,7405,157139,157139,0,21.220661715057393
+doc,113320,23503,89817,0.20740381221320156,148100,8470409,2298490,6171919,74.7476967878574
+all,120725,30908,89817,0.2560198798923172,155505,8627548,2455629,6171919,71.46446883412715

@@ -1,0 +1,26 @@
+{
+  "input_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker",
+  "output_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_stability",
+  "source_files": [
+    "estimator_ablation.csv",
+    "doc_prediction_metrics.csv",
+    "validation_summary.json"
+  ],
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "candidate_counts": {
+    "train": 103660,
+    "valid": 22200,
+    "test": 22240
+  },
+  "uses_llm_api": false,
+  "uses_embedding_api": false,
+  "outputs": [
+    "reranker_stability_summary.csv",
+    "reranker_pairwise_deltas.csv",
+    "reranker_stability_summary.md"
+  ]
+}

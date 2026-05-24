@@ -1,0 +1,16 @@
+{
+  "natural_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_semantic_qa_rescore_natural120",
+  "stratified_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_semantic_qa_rescore_stratified90",
+  "output_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_semantic_qa_comparison",
+  "input_tables": [
+    "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_semantic_qa_rescore_natural120/semantic_qa_policy_rescore.csv",
+    "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_semantic_qa_rescore_stratified90/semantic_qa_policy_rescore.csv"
+  ],
+  "uses_llm_api": false,
+  "uses_embedding_api": false,
+  "outputs": [
+    "combined_semantic_qa_metrics.csv",
+    "semantic_qa_robustness_summary.csv",
+    "semantic_qa_comparison_summary.md"
+  ]
+}

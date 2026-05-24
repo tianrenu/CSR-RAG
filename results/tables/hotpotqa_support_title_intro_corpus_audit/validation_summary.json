@@ -1,0 +1,13 @@
+{
+  "raw_hotpot": "data/raw/hotpotqa/hotpot_dev_fullwiki_v1.json",
+  "wiki_archive": "data/external/hotpotqa/enwiki-20171001-pages-meta-current-withlinks-abstracts.tar.bz2",
+  "output_corpus": "data/processed/hotpotqa_support_title_intro_corpus.jsonl",
+  "raw_rows": 7405,
+  "needed_support_titles": 13783,
+  "extracted_support_titles": 13783,
+  "missing_support_titles": 0,
+  "support_title_coverage": 1.0,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "elapsed_seconds": 332.09
+}

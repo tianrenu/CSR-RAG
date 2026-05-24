@@ -1,0 +1,2 @@
+n,sufficient,insufficient,naive_em,naive_f1,csr_coverage,csr_answered_em,csr_answered_f1,csr_answered_sufficiency_rate,support_present_rate,insufficient_answer_rate,llm_json_parse_failure_rate,llm_format_failure_rate,llm_api_error_count
+1,1,0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0

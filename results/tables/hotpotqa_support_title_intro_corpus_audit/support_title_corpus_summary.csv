@@ -1,0 +1,5 @@
+group,n,all_support_present_count,all_support_present_rate,mean_support_title_coverage,missing_question_count
+all,7405,7405,1.0,1.0,0
+bridge,5918,5918,1.0,1.0,0
+comparison,1487,1487,1.0,1.0,0
+hard,7405,7405,1.0,1.0,0

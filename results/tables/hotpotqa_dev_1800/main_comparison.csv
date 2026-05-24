@@ -1,0 +1,4 @@
+method,risk_source,calibration_method,tau_answer,decision_accuracy,coverage,selective_accuracy,abstention_rate,risk_brier,risk_ece,n_test
+Naive RAG,none,none,,0.5,1.0,0.5,0.0,,,540
+Uncalibrated CSR,logistic_raw_risk,identity,0.5,0.575925925925926,0.47962962962962963,0.5791505791505791,0.5203703703703704,0.2405160333120582,0.02443041054718534,540
+CSR-RAG,logistic_calibrated_risk,isotonic,0.5,0.5814814814814815,0.562962962962963,0.5723684210526315,0.437037037037037,0.24018864129447984,0.03689855399091276,540

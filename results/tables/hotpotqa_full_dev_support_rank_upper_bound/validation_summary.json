@@ -1,0 +1,45 @@
+{
+  "top_ks": [
+    5,
+    8,
+    10,
+    15,
+    20,
+    30,
+    50,
+    100
+  ],
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "global_doc_count": 66573,
+  "unique_title_count": 66568,
+  "cache_path": "data/cache/hotpotqa_text_embedding_v4_full_dev.jsonl",
+  "seed_cache_paths": [
+    "data/cache/hotpotqa_text_embedding_v4_1800.jsonl"
+  ],
+  "embedding_model": "text-embedding-v4",
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "top5_label_reconstruction": {
+    "train": {
+      "n": 5183,
+      "label_match_count": 5183,
+      "label_match_rate": 1.0
+    },
+    "valid": {
+      "n": 1110,
+      "label_match_count": 1110,
+      "label_match_rate": 1.0
+    },
+    "test": {
+      "n": 1112,
+      "label_match_count": 1112,
+      "label_match_rate": 1.0
+    }
+  },
+  "selection_protocol": "no training; upper-bound analysis only; all statistics computed from fixed train/valid/test splits",
+  "elapsed_seconds": 20.74
+}

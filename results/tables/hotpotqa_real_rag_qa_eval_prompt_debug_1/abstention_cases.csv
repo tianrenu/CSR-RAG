@@ -1,0 +1,1 @@
+sample_index,original_id,question,gold_answer,sufficiency_label,support_present_in_topk,risk_score,tau_answer,csr_decision,naive_answer,naive_em,naive_f1,csr_answer,csr_em,csr_f1,llm_json_parse_ok,llm_format_ok,llm_attempt,llm_used_fallback,llm_had_thinking,llm_had_reasoning_details,llm_finish_reason,llm_error,top5_titles,top5_embedding_scores

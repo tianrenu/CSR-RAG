@@ -1,0 +1,107 @@
+{
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "record_kind_filter": "official_intro_link_bridge_a0p85_p0p00_top20",
+  "target_variants": {
+    "rf_all": "random_forest_balanced/all/blend1.00",
+    "gb_all": "gradient_boosting/all/blend1.00",
+    "lr_all": "logistic_regression_balanced/all/blend1.00"
+  },
+  "top_ks": [
+    5,
+    10,
+    20
+  ],
+  "seed": 42,
+  "bootstrap_iters": 1000,
+  "variant_validation": {
+    "rf_all": {
+      "variant_id": "random_forest_balanced/all/blend1.00",
+      "split_counts": {
+        "5": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        },
+        "10": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        },
+        "20": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        }
+      },
+      "valid_calib_count": 555,
+      "valid_policy_count": 555,
+      "risk_runs": 36,
+      "policy_selections": 147,
+      "main_rows": 7
+    },
+    "gb_all": {
+      "variant_id": "gradient_boosting/all/blend1.00",
+      "split_counts": {
+        "5": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        },
+        "10": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        },
+        "20": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        }
+      },
+      "valid_calib_count": 555,
+      "valid_policy_count": 555,
+      "risk_runs": 36,
+      "policy_selections": 147,
+      "main_rows": 7
+    },
+    "lr_all": {
+      "variant_id": "logistic_regression_balanced/all/blend1.00",
+      "split_counts": {
+        "5": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        },
+        "10": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        },
+        "20": {
+          "train": 5183,
+          "valid": 1110,
+          "test": 1112
+        }
+      },
+      "valid_calib_count": 556,
+      "valid_policy_count": 554,
+      "risk_runs": 36,
+      "policy_selections": 147,
+      "main_rows": 7
+    }
+  },
+  "selection_protocol": "Train fixed reranker variants on train; generate reranked top-k records in memory; calibrate risk on valid_calib; select thresholds on valid_policy; report test only.",
+  "writes_large_data_files": false,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "outputs": [
+    "policy_sensitivity_main.csv",
+    "policy_sensitivity_policy_comparison.csv",
+    "policy_sensitivity_prediction_metrics.csv",
+    "policy_sensitivity_topk.csv",
+    "policy_sensitivity_case_studies.csv",
+    "policy_sensitivity_bootstrap_ci.csv",
+    "policy_sensitivity_key_deltas.csv",
+    "policy_sensitivity_summary.md"
+  ]
+}

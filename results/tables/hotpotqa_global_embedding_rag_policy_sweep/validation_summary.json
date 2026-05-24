@@ -1,0 +1,44 @@
+{
+  "split_counts": {
+    "train": 1260,
+    "valid": 270,
+    "test": 270
+  },
+  "estimators": [
+    "logistic_regression",
+    "random_forest",
+    "gradient_boosting"
+  ],
+  "policies": [
+    "balanced",
+    "reliable@cov85",
+    "risk_control@suff_abstain15",
+    "high_precision@cov50"
+  ],
+  "policy_rows": 12,
+  "expected_policy_rows": 12,
+  "curve_rows": 63,
+  "expected_curve_rows": 63,
+  "qa_policy_rows": 13,
+  "qa_rescore_calls_llm": false,
+  "risk_unique_counts": {
+    "logistic_regression": 23,
+    "random_forest": 17,
+    "gradient_boosting": 21
+  },
+  "test_risk_ranges": {
+    "logistic_regression": [
+      0.0,
+      1.0
+    ],
+    "random_forest": [
+      0.0,
+      1.0
+    ],
+    "gradient_boosting": [
+      0.0,
+      1.0
+    ]
+  },
+  "has_coverage85_lower_than_lr_balanced": true
+}

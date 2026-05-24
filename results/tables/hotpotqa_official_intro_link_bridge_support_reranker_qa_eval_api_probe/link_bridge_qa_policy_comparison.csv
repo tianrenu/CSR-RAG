@@ -1,0 +1,7 @@
+policy,action_type,target_k,n,coverage,answered_count,answered_em,answered_f1,answered_sufficient_rate,decision_insufficient_answer_rate,insufficient_substantive_answer_rate,sufficient_abstain_rate,false_answer_count,insufficient_substantive_count,wrong_substantive_count,over_abstain_count,tau_answer_top5,tau_answer_after_more
+naive_top5,always_answer,5,3,1.0,3,0.0,0.0,1.0,0.0,0.0,0.0,0,0,0,0,,
+naive_top20,always_answer,20,3,1.0,3,0.0,0.0,1.0,0.0,0.0,0.0,0,0,0,0,,
+balanced,answer_abstain_top5,5,3,1.0,3,0.0,0.0,1.0,0.0,0.0,0.0,0,0,0,0,0.4,
+retrieve_more_balanced,answer_retrieve_more_abstain,20,3,1.0,3,0.0,0.0,1.0,0.0,0.0,0.0,0,0,0,0,0.0,0.4
+retrieve_more_risk_control@suff_abstain15,answer_retrieve_more_abstain,20,3,1.0,3,0.0,0.0,1.0,0.0,0.0,0.0,0,0,0,0,0.0,0.35
+retrieve_more@cov85,answer_retrieve_more_abstain,20,3,1.0,3,0.0,0.0,1.0,0.0,0.0,0.0,0,0,0,0,0.0,0.65

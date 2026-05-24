@@ -1,0 +1,4 @@
+method,estimator,calibration,policy,tau_answer,decision_accuracy,coverage,selective_accuracy,insufficient_answer_rate,sufficient_abstain_rate,false_answer_count,over_abstain_count,n_test
+Naive RAG,none,none,always_answer,,0.14118705035971224,1.0,0.14118705035971224,1.0,0.0,1910,0,2224
+CSR-RAG,logistic_regression,isotonic,balanced,0.4774774774774775,0.8821942446043165,0.09172661870503597,0.6274509803921569,0.039790575916230364,0.5923566878980892,76,186,2224
+CSR-RAG,logistic_regression,isotonic,risk_control@cov85,1.0,0.14118705035971224,1.0,0.14118705035971224,1.0,0.0,1910,0,2224

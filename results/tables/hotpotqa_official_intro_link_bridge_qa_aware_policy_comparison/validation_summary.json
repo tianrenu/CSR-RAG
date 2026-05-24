@@ -1,0 +1,45 @@
+{
+  "stratified_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval",
+  "natural_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval_natural120",
+  "output_dir": "results/tables/hotpotqa_official_intro_link_bridge_qa_aware_policy_comparison",
+  "sample_runs": [
+    {
+      "sample_name": "stratified_qa90",
+      "qa_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval",
+      "selected_count": 90,
+      "completed_count": 90,
+      "sample_counts": {
+        "top5_sufficient": 30,
+        "rescued_by_top20": 30,
+        "unresolved_top20": 30
+      },
+      "uses_llm_api_source": true,
+      "uses_embedding_api_source": false
+    },
+    {
+      "sample_name": "natural_qa120",
+      "qa_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval_natural120",
+      "selected_count": 120,
+      "completed_count": 120,
+      "sample_counts": {
+        "top5_sufficient": 80,
+        "unresolved_top20": 26,
+        "rescued_by_top20": 14
+      },
+      "uses_llm_api_source": true,
+      "uses_embedding_api_source": false
+    }
+  ],
+  "uses_llm_api": false,
+  "uses_embedding_api": false,
+  "input_tables": [
+    "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval/link_bridge_qa_policy_comparison.csv",
+    "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval_natural120/link_bridge_qa_policy_comparison.csv"
+  ],
+  "outputs": [
+    "combined_policy_metrics.csv",
+    "policy_robustness_summary.csv",
+    "qa_aware_policy_recommendations.json",
+    "qa_aware_policy_summary.md"
+  ]
+}

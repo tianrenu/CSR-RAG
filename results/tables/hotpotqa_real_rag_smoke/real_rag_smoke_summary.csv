@@ -1,0 +1,2 @@
+n,naive_em,naive_f1,csr_coverage,csr_answered_em,csr_answered_f1,support_present_rate,insufficient_answer_rate
+3,1.0,1.0,0.6666666666666666,1.0,1.0,1.0,0.0

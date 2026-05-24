@@ -1,0 +1,5 @@
+variant_label,variant_id,n,top5_sufficient_count,top5_sufficient_rate,top10_sufficient_count,top10_sufficient_rate,top20_sufficient_count,top20_sufficient_rate
+original_rank,original_rank,1112,522,0.4694244604316547,739,0.664568345323741,858,0.7715827338129496
+rf_all,random_forest_balanced/all/blend1.00,1112,753,0.677158273381295,826,0.7428057553956835,858,0.7715827338129496
+gb_all,gradient_boosting/all/blend1.00,1112,718,0.64568345323741,822,0.7392086330935251,858,0.7715827338129496
+lr_all,logistic_regression_balanced/all/blend1.00,1112,713,0.6411870503597122,822,0.7392086330935251,858,0.7715827338129496

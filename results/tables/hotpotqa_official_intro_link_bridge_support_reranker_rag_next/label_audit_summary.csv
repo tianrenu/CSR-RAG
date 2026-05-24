@@ -1,0 +1,5 @@
+sufficiency_label,audit_bucket,count
+insufficient,missing_support_answer_absent,224
+insufficient,missing_support_but_answer_present,135
+sufficient,support_and_answer_present,725
+sufficient,support_present_answer_absent,28

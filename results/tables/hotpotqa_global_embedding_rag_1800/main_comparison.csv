@@ -1,0 +1,4 @@
+method,estimator,feature_set,calibration_method,tau_answer,decision_accuracy,coverage,selective_accuracy,abstention_rate,risk_brier,risk_ece,n_test
+Naive RAG,none,none,none,,0.8037037037037037,1.0,0.8037037037037037,0.0,,,270
+Uncalibrated CSR,logistic_regression,all_embedding,identity,0.6,0.8333333333333334,0.9185185185185185,0.8467741935483871,0.08148148148148149,0.11450690532773525,0.05337122927225933,270
+CSR-RAG,logistic_regression,all_embedding,isotonic,0.5,0.8333333333333334,0.9185185185185185,0.8467741935483871,0.08148148148148149,0.11571994558204513,0.06363202893746436,270

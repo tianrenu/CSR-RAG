@@ -1,0 +1,92 @@
+{
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "record_kind_filter": "official_intro_link_bridge_a0p85_p0p00_top20",
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "candidate_counts": {
+    "train": 103660,
+    "valid": 22200,
+    "test": 22240
+  },
+  "variant_count": 60,
+  "feature_sets": {
+    "all": [
+      "bridge_score",
+      "candidate_title_overlap_max",
+      "candidate_title_overlap_mean",
+      "is_firsthop",
+      "is_linked",
+      "lexical_score",
+      "mentions_other_candidate_titles",
+      "mentions_query_overlap_titles",
+      "question_in_title",
+      "rank",
+      "reciprocal_rank",
+      "score",
+      "score_margin_to_top",
+      "score_ratio_to_top",
+      "sparse_score",
+      "text_len",
+      "text_query_overlap",
+      "title_in_question",
+      "title_len",
+      "title_mentioned_by_other_docs",
+      "title_query_overlap",
+      "title_token_mentioned_by_other_docs"
+    ],
+    "bridge_context": [
+      "rank",
+      "reciprocal_rank",
+      "score",
+      "is_firsthop",
+      "is_linked",
+      "title_query_overlap",
+      "text_query_overlap",
+      "title_mentioned_by_other_docs",
+      "title_token_mentioned_by_other_docs",
+      "mentions_other_candidate_titles",
+      "mentions_query_overlap_titles",
+      "candidate_title_overlap_max",
+      "candidate_title_overlap_mean"
+    ],
+    "query_doc": [
+      "rank",
+      "reciprocal_rank",
+      "score",
+      "title_query_overlap",
+      "text_query_overlap",
+      "lexical_score",
+      "title_in_question",
+      "question_in_title",
+      "text_len",
+      "title_len",
+      "is_firsthop",
+      "is_linked"
+    ],
+    "rank_score": [
+      "rank",
+      "reciprocal_rank",
+      "score",
+      "score_margin_to_top",
+      "score_ratio_to_top",
+      "sparse_score",
+      "bridge_score",
+      "is_firsthop",
+      "is_linked"
+    ]
+  },
+  "blend_alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selected_variant": "random_forest_balanced/all/blend1.00",
+  "selection_protocol": "train support-doc reranker on train; choose variant by valid top-5 sufficiency; report test once",
+  "uses_embedding_api": false,
+  "uses_llm_api": false
+}

@@ -1,0 +1,42 @@
+{
+  "raw_hotpot": "data/raw/hotpotqa/hotpot_dev_fullwiki_v1.json",
+  "wiki_archive": "data/external/hotpotqa/enwiki-20171001-pages-meta-current-withlinks-abstracts.tar.bz2",
+  "split_dir": "data/processed/hotpotqa_global_hardneg_splits_full_dev",
+  "record_kind_filter": "natural_global_top5",
+  "output_split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "question_count": 7405,
+  "top_ks": [
+    5,
+    10,
+    20
+  ],
+  "write_record_top_ks": [
+    5,
+    10,
+    20
+  ],
+  "first_hop_k": 50,
+  "link_source_top_k": 10,
+  "max_links_per_doc": 80,
+  "link_alphas": [
+    0.85
+  ],
+  "link_position_penalties": [
+    0.0
+  ],
+  "selected_method": "link_bridge_a0p85_p0p00",
+  "doc_count": 5233329,
+  "linked_titles_requested": 138054,
+  "linked_docs_collected_total": 235583,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "retrieval_uses_gold_support": false,
+  "gold_support_used_for_evaluation_only": true,
+  "selection_protocol": "select link-bridge reranking variant by valid top-5/top-10/top-20 sufficiency; report test only",
+  "elapsed_seconds": 3558.06
+}

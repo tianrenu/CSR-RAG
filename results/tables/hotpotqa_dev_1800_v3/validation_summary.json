@@ -1,0 +1,22 @@
+{
+  "splits": {
+    "train": 2520,
+    "valid": 540,
+    "test": 540
+  },
+  "feature_counts": {
+    "v1": 12,
+    "v2": 35
+  },
+  "runs": {
+    "total": 19,
+    "coverage_curve_rows": 361
+  },
+  "main_risk": {
+    "unique_score_count": 27,
+    "min_risk": 0.0,
+    "max_risk": 1.0,
+    "all_binary": false
+  },
+  "support_only_features_present": false
+}

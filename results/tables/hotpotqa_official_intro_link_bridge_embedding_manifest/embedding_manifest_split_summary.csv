@@ -1,0 +1,5 @@
+split,record_count,unique_text_count,unique_query_count,unique_doc_count,missing_cache_count,estimated_missing_tokens
+train,5183,87544,5183,82361,65194,4539360
+valid,1110,20803,1110,19693,15562,1113390
+test,1112,20899,1112,19787,15554,1114298
+all,7405,120725,7405,113320,89817,6171919

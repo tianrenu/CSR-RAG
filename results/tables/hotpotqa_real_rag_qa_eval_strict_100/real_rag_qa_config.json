@@ -1,0 +1,7 @@
+{
+  "llm_model": "MiniMax-M2.7",
+  "max_examples": 100,
+  "sample_seed": 42,
+  "tau_answer": 0.4,
+  "feature_set": "all_embedding"
+}

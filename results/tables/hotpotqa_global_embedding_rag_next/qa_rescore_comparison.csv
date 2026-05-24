@@ -1,0 +1,8 @@
+method_name,policy,tau_answer,n,coverage,answered_count,answered_f1,insufficient_answer_rate,false_answer_count,over_abstain_count,qa_rescore_calls_llm,sufficient_abstain_rate
+naive_always_answer,always_answer,,100,1.0,100,0.7093189033189033,1.0,13,0,False,
+top1_embedding_threshold,balanced,0.9,100,1.0,100,0.7093189033189033,1.0,13,0,False,0.0
+logistic_regression/embedding_score_only/isotonic,balanced,0.4,100,0.93,93,0.7284953994631415,0.7692307692307693,10,4,False,0.04597701149425287
+logistic_regression/retrieval_quality_only/isotonic,balanced,0.55,100,0.91,91,0.7172002600574028,0.7692307692307693,10,6,False,0.06896551724137931
+logistic_regression/v3_all/isotonic,balanced,0.8,100,0.99,99,0.7164837407261649,0.9230769230769231,12,0,False,0.0
+logistic_regression/v3_all/isotonic,risk_control@suff_abstain15,0.3,100,0.83,83,0.746167353396269,0.46153846153846156,6,10,False,0.11494252873563218
+gradient_boosting/v3_all/isotonic,reliable@cov85,0.35,100,0.88,88,0.754735668372032,0.6153846153846154,8,7,False,0.08045977011494253

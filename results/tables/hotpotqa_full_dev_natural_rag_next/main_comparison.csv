@@ -1,0 +1,9 @@
+method,estimator,feature_set,calibration,policy,tau_answer,test_decision_accuracy,test_coverage,test_selective_accuracy,test_insufficient_answer_rate,test_sufficient_abstain_rate,test_false_answer_count,test_over_abstain_count
+naive_always_answer,none,none,none,always_answer,,0.2823741007194245,1.0,0.2823741007194245,1.0,0.0,798,0
+top1_embedding_threshold,none,top1_embedding_score,identity,balanced,0.25,0.7005395683453237,0.05485611510791367,0.3442622950819672,0.05012531328320802,0.9331210191082803,40,293
+logistic_regression/embedding_score_only/isotonic,logistic_regression,embedding_score_only,isotonic,balanced,0.5,0.7580935251798561,0.15737410071942445,0.6285714285714286,0.08145363408521303,0.6496815286624203,65,204
+logistic_regression/retrieval_quality_only/identity,logistic_regression,retrieval_quality_only,identity,balanced,0.65,0.7904676258992805,0.2760791366906475,0.6319218241042345,0.14160401002506265,0.3821656050955414,113,120
+logistic_regression/v2_all/platt,logistic_regression,v2_all,platt,balanced,0.65,0.8084532374100719,0.24550359712230216,0.684981684981685,0.10776942355889724,0.40445859872611467,86,127
+logistic_regression/v3_all/platt,logistic_regression,v3_all,platt,balanced,0.75,0.8246402877697842,0.30305755395683454,0.6765578635014837,0.13659147869674185,0.27388535031847133,109,86
+logistic_regression/v3_all/identity,logistic_regression,v3_all,identity,risk_control@suff_abstain15,0.8,0.7760791366906474,0.41276978417266186,0.5708061002178649,0.24686716791979949,0.16560509554140126,197,52
+gradient_boosting/v3_all/identity,gradient_boosting,v3_all,identity,reliable@cov85,0.95,0.3965827338129496,0.8839928057553957,0.31841302136317395,0.8395989974937343,0.0031847133757961785,670,1

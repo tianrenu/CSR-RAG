@@ -1,0 +1,9 @@
+split,top_k,n,sufficient_count,insufficient_count,sufficient_rate,answer_present_in_returned_docs_rate,mean_support_title_coverage,questions_with_no_hits
+train,5,5,0,5,0.0,0.0,0.0,0
+train,10,5,0,5,0.0,0.0,0.0,0
+valid,5,5,0,5,0.0,0.0,0.0,0
+valid,10,5,0,5,0.0,0.0,0.0,0
+test,5,5,0,5,0.0,0.0,0.0,0
+test,10,5,0,5,0.0,0.0,0.0,0
+all,5,15,0,15,0.0,0.0,0.0,0
+all,10,15,0,15,0.0,0.0,0.0,0

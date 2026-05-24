@@ -1,0 +1,64 @@
+{
+  "selection_protocol": {
+    "input_samples": [
+      "stratified_qa90",
+      "natural_qa120"
+    ],
+    "hard_filters": {
+      "natural_coverage_min": 0.65,
+      "f1_must_beat_naive_top5_on_both_samples": true,
+      "isar_must_not_exceed_naive_top5_on_both_samples": true
+    },
+    "risk_first_sort": [
+      "max_isar asc",
+      "natural_answered_f1 desc",
+      "natural_coverage desc"
+    ],
+    "f1_first_sort": [
+      "natural_answered_f1 desc",
+      "max_isar asc",
+      "natural_coverage desc"
+    ]
+  },
+  "accepted_policies": [
+    "balanced",
+    "retrieve_more_balanced",
+    "retrieve_more_risk_control@suff_abstain15"
+  ],
+  "risk_first": {
+    "policy": "balanced",
+    "natural_coverage": 0.6916666666666667,
+    "natural_answered_f1": 0.7121542446843652,
+    "natural_isar": 0.1,
+    "natural_sufficient_abstain_rate": 0.15,
+    "stratified_coverage": 0.5444444444444444,
+    "stratified_answered_f1": 0.45383867832847424,
+    "stratified_isar": 0.11666666666666667,
+    "stratified_sufficient_abstain_rate": 0.23333333333333334,
+    "min_coverage": 0.5444444444444444,
+    "mean_answered_f1": 0.5829964615064197,
+    "max_isar": 0.11666666666666667,
+    "mean_isar": 0.10833333333333334,
+    "dominates_naive_top5_all_samples": true,
+    "dominates_naive_top20_all_samples": false
+  },
+  "f1_first": {
+    "policy": "retrieve_more_risk_control@suff_abstain15",
+    "natural_coverage": 0.6833333333333333,
+    "natural_answered_f1": 0.730169288705874,
+    "natural_isar": 0.15384615384615385,
+    "natural_sufficient_abstain_rate": 0.19148936170212766,
+    "stratified_coverage": 0.4888888888888889,
+    "stratified_answered_f1": 0.65995670995671,
+    "stratified_isar": 0.03333333333333333,
+    "stratified_sufficient_abstain_rate": 0.35,
+    "min_coverage": 0.4888888888888889,
+    "mean_answered_f1": 0.695062999331292,
+    "max_isar": 0.15384615384615385,
+    "mean_isar": 0.09358974358974359,
+    "dominates_naive_top5_all_samples": true,
+    "dominates_naive_top20_all_samples": true
+  },
+  "high_coverage_first": {},
+  "high_coverage_note": "No non-naive policy currently satisfies natural coverage >= 0.80 while also keeping natural insufficient-substantive answer rate no worse than naive_top5."
+}

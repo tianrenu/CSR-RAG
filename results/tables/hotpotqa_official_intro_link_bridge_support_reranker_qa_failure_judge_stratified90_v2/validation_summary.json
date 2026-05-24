@@ -1,0 +1,19 @@
+{
+  "qa_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval",
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_support_reranker_splits",
+  "record_prefix": "official_intro_link_bridge_support_reranker_random_forest_balanced_all_blend1_00_top",
+  "sample_name": "stratified_qa90",
+  "candidate_case_count": 52,
+  "selected_case_count": 52,
+  "completed_case_count": 52,
+  "max_cases": 80,
+  "max_context_chars": 5000,
+  "llm_model": "MiniMax-M2.7",
+  "uses_llm_api": true,
+  "uses_embedding_api": false,
+  "outputs": [
+    "qa_failure_judgments.csv",
+    "qa_failure_taxonomy_summary.csv",
+    "qa_failure_taxonomy_summary.md"
+  ]
+}

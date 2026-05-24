@@ -1,0 +1,25 @@
+{
+  "selected_count": 300,
+  "completed_count": 300,
+  "sample_counts": {
+    "natural_sufficient": 100,
+    "natural_insufficient": 100,
+    "hardneg_insufficient": 100
+  },
+  "completed_counts": {
+    "natural_sufficient": 100,
+    "natural_insufficient": 100,
+    "hardneg_insufficient": 100
+  },
+  "policies": [
+    "naive_always_answer",
+    "balanced",
+    "reliable@cov85",
+    "risk_control@cov85",
+    "high_precision@cov50"
+  ],
+  "json_parse_failure_rate": 0.0033333333333333335,
+  "format_failure_rate": 0.0033333333333333335,
+  "coverage85_decision_insufficient_answer_rate_lower_bound": 0.775,
+  "qa_rescore_calls_llm": false
+}

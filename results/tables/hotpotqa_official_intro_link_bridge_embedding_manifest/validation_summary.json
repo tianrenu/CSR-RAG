@@ -1,0 +1,19 @@
+{
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "record_kind_filter": "official_intro_link_bridge_a0p85_p0p00_top20",
+  "embedding_model": "text-embedding-v4",
+  "cache_paths": [
+    "data/cache/hotpotqa_text_embedding_v4_full_dev.jsonl",
+    "data/cache/hotpotqa_text_embedding_v4_1800.jsonl"
+  ],
+  "cache_key_count": 73978,
+  "token_multiplier": 1.3,
+  "records": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "purpose": "budget and cache-coverage manifest for candidate-level embedding reranking"
+}

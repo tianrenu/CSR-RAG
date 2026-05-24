@@ -1,0 +1,4 @@
+split,n_records,sufficient,insufficient,sufficient_rate,bridge,comparison,unknown
+train,1260,1078,182,0.8555555555555555,1034,226,0
+valid,270,224,46,0.8296296296296296,210,60,0
+test,270,217,53,0.8037037037037037,220,50,0

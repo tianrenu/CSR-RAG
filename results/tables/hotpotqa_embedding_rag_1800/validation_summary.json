@@ -1,0 +1,21 @@
+{
+  "split_counts": {
+    "train": 1260,
+    "valid": 270,
+    "test": 270
+  },
+  "feature_counts": {
+    "train": 1260,
+    "valid": 270,
+    "test": 270
+  },
+  "test_label_counts": {
+    "sufficient": 245,
+    "insufficient": 25
+  },
+  "risk_unique_count": 12,
+  "risk_min": 0.0,
+  "risk_max": 0.7643844058322327,
+  "coverage_curve_expected_min_rows": 285,
+  "main_tau_answer": 0.4
+}

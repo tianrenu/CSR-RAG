@@ -1,0 +1,9 @@
+case_type,taxonomy,count
+false_answer,answer_leakage_with_missing_support,100
+false_answer,false_answer_other,10
+false_answer,high_embedding_false_safe,24
+false_answer,missing_support_high_query_coverage,82
+over_abstain,conservative_despite_answer_and_support,50
+safe_answer,safe_answer,264
+successful_intercept,missing_support_intercepted,240
+successful_intercept,missing_support_no_answer_leakage,342

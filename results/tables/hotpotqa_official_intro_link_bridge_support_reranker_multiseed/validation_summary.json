@@ -1,0 +1,29 @@
+{
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "record_kind_filter": "official_intro_link_bridge_a0p85_p0p00_top20",
+  "output_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_multiseed",
+  "seeds": [
+    13,
+    21,
+    42,
+    87,
+    100
+  ],
+  "target_variants": {
+    "rf_all": "random_forest_balanced/all/blend1.00",
+    "gb_all": "gradient_boosting/all/blend1.00",
+    "lr_all": "logistic_regression_balanced/all/blend1.00"
+  },
+  "blend_alphas": [
+    1.0
+  ],
+  "selection_note": "Fixed RF/GB/LR all/blend1.00 variants; no test-based variant selection.",
+  "uses_llm_api": false,
+  "uses_embedding_api": false,
+  "outputs": [
+    "multiseed_variant_metrics.csv",
+    "multiseed_aggregate_summary.csv",
+    "multiseed_pairwise_deltas.csv",
+    "multiseed_reranker_summary.md"
+  ]
+}

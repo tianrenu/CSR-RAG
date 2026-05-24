@@ -1,0 +1,26 @@
+{
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "valid_calib_count": 555,
+  "valid_policy_count": 555,
+  "valid_calib_label_counts": {
+    "insufficient": 393,
+    "sufficient": 162
+  },
+  "valid_policy_label_counts": {
+    "insufficient": 393,
+    "sufficient": 162
+  },
+  "runs": 31,
+  "selected_policy_runs": 124,
+  "qa_rows": 0,
+  "bootstrap_iters": 1000,
+  "seed": 42,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "record_kind_filter": "official_intro_bm25_top5",
+  "selection_protocol": "train estimator on train; fit calibration on valid_calib; select policy thresholds on valid_policy; report test only"
+}

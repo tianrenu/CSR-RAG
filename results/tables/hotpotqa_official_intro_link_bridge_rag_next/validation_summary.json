@@ -1,0 +1,26 @@
+{
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "valid_calib_count": 556,
+  "valid_policy_count": 554,
+  "valid_calib_label_counts": {
+    "insufficient": 308,
+    "sufficient": 248
+  },
+  "valid_policy_label_counts": {
+    "insufficient": 307,
+    "sufficient": 247
+  },
+  "runs": 31,
+  "selected_policy_runs": 124,
+  "qa_rows": 0,
+  "bootstrap_iters": 1000,
+  "seed": 42,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "record_kind_filter": "official_intro_link_bridge_a0p85_p0p00_top5",
+  "selection_protocol": "train estimator on train; fit calibration on valid_calib; select policy thresholds on valid_policy; report test only"
+}

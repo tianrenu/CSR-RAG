@@ -1,0 +1,25 @@
+{
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "record_kind_filter": "official_intro_link_bridge_a0p85_p0p00_top20",
+  "output_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_paired_bootstrap",
+  "seed": 42,
+  "bootstrap_iters": 5000,
+  "bootstrap_seed": 20260524,
+  "test_question_count": 1112,
+  "variants": {
+    "original_rank": "original_rank",
+    "rf_all": "random_forest_balanced/all/blend1.00",
+    "gb_all": "gradient_boosting/all/blend1.00",
+    "lr_all": "logistic_regression_balanced/all/blend1.00"
+  },
+  "selection_note": "Uses fixed all/blend1.00 variants for paired stability analysis; no test tuning.",
+  "uses_llm_api": false,
+  "uses_embedding_api": false,
+  "outputs": [
+    "paired_question_details.csv",
+    "paired_variant_summary.csv",
+    "paired_pairwise_deltas.csv",
+    "paired_bootstrap_ci.csv",
+    "paired_reranker_bootstrap_summary.md"
+  ]
+}

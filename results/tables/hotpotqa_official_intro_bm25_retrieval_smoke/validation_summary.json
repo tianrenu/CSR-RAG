@@ -1,0 +1,35 @@
+{
+  "raw_hotpot": "data/raw/hotpotqa/hotpot_dev_fullwiki_v1.json",
+  "wiki_archive": "data/external/hotpotqa/enwiki-20171001-pages-meta-current-withlinks-abstracts.tar.bz2",
+  "split_dir": "data/processed/hotpotqa_global_hardneg_splits_full_dev",
+  "record_kind_filter": "natural_global_top5",
+  "output_split_dir": "data/processed/hotpotqa_official_intro_bm25_splits_smoke",
+  "split_counts": {
+    "train": 5,
+    "valid": 5,
+    "test": 5
+  },
+  "question_count": 15,
+  "top_ks": [
+    5,
+    10
+  ],
+  "write_record_top_ks": [
+    5
+  ],
+  "title_weight": 3,
+  "k1": 1.2,
+  "b": 0.75,
+  "query_vocab_size": 137,
+  "mean_query_terms": 9.533333333333333,
+  "max_queries_per_token": 300,
+  "doc_count": 2000,
+  "avgdl": 38.789,
+  "max_inner_files": 0,
+  "max_docs": 2000,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "retrieval_uses_gold_support": false,
+  "gold_support_used_for_evaluation_only": true,
+  "elapsed_seconds": 1.11
+}

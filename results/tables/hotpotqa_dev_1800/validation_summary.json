@@ -1,0 +1,39 @@
+{
+  "retrieval": {
+    "record_count": 3600,
+    "original_id_count": 1800,
+    "sufficient_count": 1800,
+    "insufficient_count": 1800,
+    "top_k": 5
+  },
+  "splits": {
+    "train": {
+      "record_count": 2520,
+      "original_id_count": 1260,
+      "sufficient_count": 1260,
+      "insufficient_count": 1260
+    },
+    "valid": {
+      "record_count": 540,
+      "original_id_count": 270,
+      "sufficient_count": 270,
+      "insufficient_count": 270
+    },
+    "test": {
+      "record_count": 540,
+      "original_id_count": 270,
+      "sufficient_count": 270,
+      "insufficient_count": 270
+    }
+  },
+  "risk": {
+    "record_count": 540,
+    "unique_score_count": 31,
+    "min_risk": 0.35135135135135137,
+    "max_risk": 1.0
+  },
+  "tables": {
+    "decision_rows": 1,
+    "coverage_curve_rows": 19
+  }
+}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.local
+data/cache/
+data/
+!.gitkeep
+*.pkl
+*.bin
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip

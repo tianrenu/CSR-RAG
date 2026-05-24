@@ -1,0 +1,84 @@
+{
+  "split_counts": {
+    "train": 10366,
+    "valid": 2220,
+    "test": 2224
+  },
+  "split_question_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "label_counts": {
+    "train": {
+      "insufficient": 9086,
+      "sufficient": 1280
+    },
+    "valid": {
+      "insufficient": 1941,
+      "sufficient": 279
+    },
+    "test": {
+      "insufficient": 1910,
+      "sufficient": 314
+    }
+  },
+  "hardneg_counts": {
+    "train": {
+      "natural_global_top5": 5183,
+      "hardneg_missing_support_top5": 5183
+    },
+    "valid": {
+      "natural_global_top5": 1110,
+      "hardneg_missing_support_top5": 1110
+    },
+    "test": {
+      "natural_global_top5": 1112,
+      "hardneg_missing_support_top5": 1112
+    }
+  },
+  "estimators": [
+    "logistic_regression",
+    "logistic_regression_balanced",
+    "random_forest",
+    "gradient_boosting"
+  ],
+  "policies": [
+    "balanced",
+    "reliable@cov85",
+    "risk_control@cov85",
+    "high_precision@cov50"
+  ],
+  "policy_rows": 16,
+  "expected_policy_rows": 16,
+  "curve_rows": 7793,
+  "case_rows": 286,
+  "risk_unique_counts": {
+    "logistic_regression": 2046,
+    "logistic_regression_balanced": 2046,
+    "random_forest": 1806,
+    "gradient_boosting": 1939
+  },
+  "test_risk_ranges": {
+    "logistic_regression": [
+      0.06101825337563355,
+      0.9583919895184687
+    ],
+    "logistic_regression_balanced": [
+      0.33985146242082076,
+      0.9890932222005467
+    ],
+    "random_forest": [
+      0.03862247491313393,
+      0.9705322156053324
+    ],
+    "gradient_boosting": [
+      0.03716460043052763,
+      0.9604041435756963
+    ]
+  },
+  "target_coverage": 0.85,
+  "target_insufficient_answer_rate": 0.5,
+  "has_coverage85_under_target_iar": false,
+  "has_coverage85_lower_than_previous_global_iar": false
+}

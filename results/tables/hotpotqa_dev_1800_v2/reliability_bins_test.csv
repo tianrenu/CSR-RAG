@@ -1,0 +1,11 @@
+estimator,feature_set,calibration_method,bin_id,bin_left,bin_right,n,mean_predicted_risk,observed_risk_rate,abs_gap
+logistic_regression,all_features,isotonic,0,0.0,0.1,0,,,
+logistic_regression,all_features,isotonic,1,0.1,0.2,0,,,
+logistic_regression,all_features,isotonic,2,0.2,0.30000000000000004,0,,,
+logistic_regression,all_features,isotonic,3,0.30000000000000004,0.4,116,0.35214650936245334,0.3793103448275862,0.027163835465132846
+logistic_regression,all_features,isotonic,4,0.4,0.5,157,0.4564223358176608,0.43312101910828027,0.023301316709380515
+logistic_regression,all_features,isotonic,5,0.5,0.6000000000000001,151,0.5484467941565386,0.5695364238410596,0.021089629684520994
+logistic_regression,all_features,isotonic,6,0.6000000000000001,0.7000000000000001,95,0.6666666666666665,0.5789473684210527,0.08771929824561386
+logistic_regression,all_features,isotonic,7,0.7000000000000001,0.8,3,0.7265944859293789,0.6666666666666666,0.05992781926271229
+logistic_regression,all_features,isotonic,8,0.8,0.9,11,0.8345722561007178,0.7272727272727273,0.10729952882799054
+logistic_regression,all_features,isotonic,9,0.9,1.0,7,0.9660054532610401,1.0,0.03399454673895985

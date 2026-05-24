@@ -1,0 +1,35 @@
+{
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_splits_top20_full_dev",
+  "record_prefix": "official_intro_link_bridge_a0p85_p0p00_top",
+  "top_ks": [
+    5,
+    10,
+    20
+  ],
+  "split_counts": {
+    "5": {
+      "train": 5183,
+      "valid": 1110,
+      "test": 1112
+    },
+    "10": {
+      "train": 5183,
+      "valid": 1110,
+      "test": 1112
+    },
+    "20": {
+      "train": 5183,
+      "valid": 1110,
+      "test": 1112
+    }
+  },
+  "valid_calib_count": 556,
+  "valid_policy_count": 554,
+  "risk_runs": 36,
+  "policy_selections": 147,
+  "bootstrap_iters": 1000,
+  "seed": 42,
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "selection_protocol": "train on train; calibrate on valid_calib; select top5 answer and retrieve-more thresholds on valid_policy; report test only"
+}

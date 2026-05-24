@@ -1,0 +1,40 @@
+{
+  "splits": {
+    "train_records": 2520,
+    "valid_records": 540,
+    "test_records": 540
+  },
+  "experiments": {
+    "total_runs": 16,
+    "estimators": [
+      "logistic_regression",
+      "random_forest",
+      "gradient_boosting"
+    ],
+    "calibration_methods": [
+      "identity",
+      "platt",
+      "isotonic"
+    ],
+    "feature_sets": [
+      "all_features",
+      "query_only",
+      "retrieval_only",
+      "lexical_only",
+      "no_query",
+      "no_retrieval",
+      "no_lexical"
+    ]
+  },
+  "main_risk": {
+    "unique_score_count": 31,
+    "min_risk": 0.35135135135135137,
+    "max_risk": 1.0,
+    "all_binary": false
+  },
+  "tables": {
+    "model_comparison_rows": 3,
+    "feature_ablation_rows": 7,
+    "coverage_curve_rows": 304
+  }
+}

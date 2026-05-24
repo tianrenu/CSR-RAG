@@ -1,0 +1,17 @@
+{
+  "qa_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_eval",
+  "judge_dir": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_qa_failure_judge_stratified90_v2",
+  "split_dir": "data/processed/hotpotqa_official_intro_link_bridge_support_reranker_splits",
+  "record_prefix": "official_intro_link_bridge_support_reranker_random_forest_balanced_all_blend1_00_top",
+  "policy_main": "results/tables/hotpotqa_official_intro_link_bridge_support_reranker_retrieve_more/main_comparison.csv",
+  "sample_name": "stratified_qa90",
+  "detail_rows": 90,
+  "judge_rows": 52,
+  "policy_count": 6,
+  "uses_llm_api": false,
+  "uses_embedding_api": false,
+  "outputs": [
+    "semantic_qa_policy_rescore.csv",
+    "semantic_qa_rescore_summary.md"
+  ]
+}

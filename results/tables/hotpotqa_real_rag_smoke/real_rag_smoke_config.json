@@ -1,0 +1,7 @@
+{
+  "embedding_model": "text-embedding-v4",
+  "llm_model": "MiniMax-M2.7",
+  "max_examples": 3,
+  "top_k": 5,
+  "tau_answer": 0.5
+}

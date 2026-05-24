@@ -1,0 +1,49 @@
+{
+  "top_ks": [
+    5,
+    8,
+    10,
+    15
+  ],
+  "split_counts": {
+    "train": 5183,
+    "valid": 1110,
+    "test": 1112
+  },
+  "global_doc_count": 66573,
+  "risk_runs": 60,
+  "bootstrap_iters": 1000,
+  "seed": 42,
+  "cache_path": "data/cache/hotpotqa_text_embedding_v4_full_dev.jsonl",
+  "seed_cache_paths": [
+    "data/cache/hotpotqa_text_embedding_v4_1800.jsonl"
+  ],
+  "embedding_model": "text-embedding-v4",
+  "uses_embedding_api": false,
+  "uses_llm_api": false,
+  "selection_protocol": "train estimator on train; fit calibration on valid_calib; select thresholds on valid_policy; report test only",
+  "top5_reconstruction_check": {
+    "train": {
+      "n": 5183,
+      "exact_title_match_count": 5183,
+      "exact_title_match_rate": 1.0,
+      "label_match_count": 5183,
+      "label_match_rate": 1.0
+    },
+    "valid": {
+      "n": 1110,
+      "exact_title_match_count": 1110,
+      "exact_title_match_rate": 1.0,
+      "label_match_count": 1110,
+      "label_match_rate": 1.0
+    },
+    "test": {
+      "n": 1112,
+      "exact_title_match_count": 1112,
+      "exact_title_match_rate": 1.0,
+      "label_match_count": 1112,
+      "label_match_rate": 1.0
+    }
+  },
+  "elapsed_seconds": 72.49
+}

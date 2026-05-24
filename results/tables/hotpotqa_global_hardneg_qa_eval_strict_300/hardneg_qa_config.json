@@ -1,0 +1,16 @@
+{
+  "llm_model": "MiniMax-M2.7",
+  "estimator": "logistic_regression",
+  "calibration": "isotonic",
+  "per_bucket": 100,
+  "sample_seed": 42,
+  "selected_policy_taus": {
+    "balanced": 0.4774774774774775,
+    "reliable@cov85": 1.0,
+    "risk_control@cov85": 1.0,
+    "high_precision@cov50": 0.9693251533742331
+  },
+  "qa_rescore_calls_llm": false,
+  "selected_count": 300,
+  "completed_count": 300
+}
