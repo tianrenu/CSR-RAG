@@ -1,3 +1,12 @@
+# CSR-RAG Legacy Archive
+
+> This repository is a historical archive for the early CSR-RAG research prototype.
+> The active, renamed SERA-RAG project is now maintained at: https://github.com/tianrenu/sera-rag
+>
+> Please use the SERA-RAG repository for current code, paper-facing evidence packs, readiness audits, and reproducibility references. This CSR-RAG repository is preserved only for provenance and historical traceability.
+
+---
+
 # CSR-RAG
 
 CSR-RAG is a research prototype for calibrated selective retrieval-augmented generation.
