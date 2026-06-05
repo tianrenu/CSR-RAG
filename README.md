@@ -29,7 +29,7 @@ The project is still in the framework-optimization and experiment-building stage
 
 ## Repository Scope
 
-This GitHub repository is intended to track the lightweight research code, active documentation, small result tables, and reproducibility manifests.
+This GitHub repository is intended to track the lightweight legacy research code, small result tables, and reproducibility manifests.
 
 Large local artifacts are intentionally not included:
 
@@ -40,7 +40,7 @@ Large local artifacts are intentionally not included:
 - virtual environments
 - API credentials
 
-See `docs/README.md` for the recommended reading order and current research status.
+The old internal documentation directory has been removed from this public archive. For current documentation, paper-facing evidence packs, and reproducibility references, use the active SERA-RAG repository.
 
 ## Quick Check
 
